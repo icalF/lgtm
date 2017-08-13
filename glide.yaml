@@ -1,0 +1,9 @@
+package: github.com/icalF/lgtm
+import:
+- package: github.com/google/go-github
+- package: golang.org/x/oauth2
+- package: github.com/google/go-querystring
+  subpackages:
+  - query
+- package: github.com/rjz/githubhook
+  version: ^0.0.1
